@@ -6,10 +6,10 @@
 5) Зайти в любоую папку - cd Q2
 6) Создать 5 файлов (3 txt, 2 json) - touch file1.txt file2.txt file3.txt file4.json file5.json
 7) Создать 3 папки - mkdir U1 U2 U3
-8. Вывести список содержимого папки - ls
-9) + Открыть любой txt файл - cat > file1.txt
-10) + написать туда что-нибудь, любой текст. - hello world
-11) + сохранить и выйти. - ctrl+d
+8) Вывести список содержимого папки - ls
+9) Открыть любой txt файл - cat > file1.txt
+10) написать туда что-нибудь, любой текст. - hello world
+11) сохранить и выйти. - ctrl+d
 12) Выйти из папки на уровень выше - cd ..
 13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv file2.txt file3.txt ../Q1
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp file4.json file5.json ../Q3
@@ -24,13 +24,16 @@
 Задание *
 1) Отправить http запрос на сервер.
 http://162.55.220.72:5006/terminal-hw-request
+```
 curl "http://162.55.220.72:5006/terminal-hw-request"
-
+```
 "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)" 
+
 curl "http://162.55.220.72:5005/get_method?name=daryna&age=34"
 
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+```
 #!/bin/bash
 cd T2
 mkdir Q1 Q2 Q3
@@ -39,3 +42,4 @@ touch file1.txt file2.txt file3.txt file4.json file5.json
 mkdir U1 U2 U3
 ls
 mv file2.txt file3.txt ../Q1
+```
