@@ -1,0 +1,8 @@
+#!/bin/bash
+cd T2
+mkdir Q1 Q2 Q3
+cd Q2
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir U1 U2 U3
+ls
+mv file2.txt file3.txt ../Q1
